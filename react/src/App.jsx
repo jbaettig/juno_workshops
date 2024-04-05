@@ -7,13 +7,12 @@ import { useEffect } from "react";
 import { Footer } from "./Footer";
 
 function App() {
-  // TODO: STEP_1_INITIALIZATION
-  // useEffect(() => {
-  //   (async () =>
-  //     await initJuno({
-  //       satelliteId: "replace-satellite-id",
-  //     }))();
-  // }, []);
+  useEffect(() => {
+    (async () =>
+      await initJuno({
+        satelliteId: "r6ghx-raaaa-aaaal-ai5zq-cai",
+      }))();
+  }, []);
 
   return (
     <>

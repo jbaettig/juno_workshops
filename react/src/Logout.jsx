@@ -1,13 +1,11 @@
 import { signOut } from "@junobuild/core";
 
 export const Logout = () => {
-  //TODO: STEP_3_AUTH_SIGN_OUT
-  // onClick={signOut}
-
   return (
     <button
       type="button"
       className="flex items-center gap-2 mt-24 hover:text-lavender-blue-500 active:text-lavender-blue-400"
+      onClick={signOut}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
